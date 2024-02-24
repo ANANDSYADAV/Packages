@@ -215,4 +215,176 @@ const area = [
     }
 ]; 
 
-module.exports = { len, mass, time, area };
+const data = [
+    {
+        unit: 'byte',
+        abbreviation: 'B',
+        valueInSI: 9.53674316e-7
+    },
+    {
+        unit: 'kilobyte',
+        abbreviation: 'KB',
+        valueInSI: 0.0009765625
+    },
+    {
+        unit: 'megabyte',
+        abbreviation: 'MB',
+        valueInSI: 1
+    },
+    {
+        unit: 'gigabyte',
+        abbreviation: 'GB',
+        valueInSI: 1024
+    },
+    {
+        unit: 'terabyte',
+        abbreviation: 'TB',
+        valueInSI: 1048576
+    },
+    {
+        unit: 'petabyte',
+        abbreviation: 'PB',
+        valueInSI: 1.07374182e9
+    }
+]; 
+
+const speed = [
+    {
+        unit: 'lightspeed',
+        abbreviation: 'c',
+        valueInSI: 299792458
+    },
+    {
+        unit: 'mach',
+        abbreviation: 'ma',
+        valueInSI: 340.3
+    },
+    {
+        unit: 'meter/sec',
+        abbreviation: 'm/s',
+        valueInSI: 1
+    },
+    {
+        unit: 'kilometer/hour',
+        abbreviation: 'km/h',
+        valueInSI: 0.277777778
+    },
+    {
+        unit: 'kilometer/sec',
+        abbreviation: 'km/s',
+        valueInSI: 1000
+    },
+    {
+        unit: 'knot',
+        abbreviation: 'kn',
+        valueInSI: 0.514444444
+    },
+    {
+        unit: 'mile/hour',
+        abbreviation: 'mph',
+        valueInSI: 0.44704
+    },
+    {
+        unit: 'foot/sec',
+        abbreviation: 'fps',
+        valueInSI: 0.3048
+    },
+    {
+        unit: 'inch/sec',
+        abbreviation: 'ips',
+        valueInSI: 0.0254
+    }
+]; 
+
+const volume = [
+    {
+        unit: 'cubic meter',
+        abbreviation: 'm3',
+        valueInSI: 1
+    },
+    {
+        unit: 'cubic decimeter',
+        abbreviation: 'dm3',
+        valueInSI: 0.001
+    },
+    {
+        unit: 'cubic centimeter',
+        abbreviation: 'cm3',
+        valueInSI: 11e-6
+    },
+    {
+        unit: 'cubic millimeter',
+        abbreviation: 'mm3',
+        valueInSI: 1e-9
+    },
+    {
+        unit: 'hectoliter',
+        abbreviation: 'hl',
+        valueInSI: 0.1
+    },
+    {
+        unit: 'liter',
+        abbreviation: 'l',
+        valueInSI: 0.001
+    },
+    {
+        unit: 'deciliter',
+        abbreviation: 'dl',
+        valueInSI: 0.0001
+    },
+    {
+        unit: 'centiliter',
+        abbreviation: 'cl',
+        valueInSI: 1e-5
+    },
+    {
+        unit: 'milliliter',
+        abbreviation: 'ml',
+        valueInSI: 1e-6
+    },
+    {
+        unit: 'cubic foot',
+        abbreviation: 'ft3',
+        valueInSI: 0.0283168466
+    },
+    {
+        unit: 'cubic inch',
+        abbreviation: 'in3',
+        valueInSI: 1.6387064e-5
+    },
+    {
+        unit: 'cubic yard',
+        abbreviation: 'yd3',
+        valueInSI: 0.764554858
+    },
+    {
+        unit: 'acre-foot',
+        abbreviation: 'af3',
+        valueInSI: 1234
+    }
+];
+
+const temp = [
+    {
+        unit: 'celsius',
+        abbreviation: 'C',
+        valueInSI: 274.15
+    },
+    {
+        unit: 'fahrenheit',
+        abbreviation: 'F',
+        valueInSI: 255.927778
+    },
+    {
+        unit: 'kelvin',
+        abbreviation: 'K',
+        valueInSI: 1
+    },
+    {
+        unit: 'rankin',
+        abbreviation: 'R',
+        valueInSI: 0.555555556
+    }
+];
+
+module.exports = { len, mass, time, area, data, speed, volume, temp };

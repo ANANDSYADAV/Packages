@@ -1,3 +1,5 @@
+/* This JavaScript code defines a function named `calculateBMI` that calculates the Body Mass Index
+(BMI) based on the provided height and weight values. Here's a breakdown of what the code does: */
 const convert = require('../converter/convert');
 
 module.exports = function calculateBMI(height, heigthUnit, weight, weightUnit) {

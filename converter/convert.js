@@ -1,3 +1,5 @@
+/* This JavaScript code snippet is a module that exports a function called `convert`. The function
+takes four parameters: `aspect`, `fromUnit`, `toUnit`, and `value`. */
 const { len, mass, time, area, data, speed, volume, temp } = require('./resources');
 
 module.exports = function convert(aspect, fromUnit, toUnit, value) {

@@ -1,5 +1,5 @@
 {
-  "name": "converter",
+  "name": "convert-calc",
   "version": "1.0.0",
   "description": "It converts data from one unit to another",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/ANANDSYADAV/converter.git"
   },
   "keywords": [
-    "converter"
+    "converter unit-converter bmi-calculator"
   ],
   "author": "ANAND YADAV",
   "license": "Apache-2.0",

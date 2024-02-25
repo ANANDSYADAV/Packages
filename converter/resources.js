@@ -200,7 +200,7 @@ const area = [
     },
     {
         unit: 'square yard',
-        abbreviation: 'ac',
+        abbreviation: 'yd2',
         valueInSI: 0.83612736
     },
     {

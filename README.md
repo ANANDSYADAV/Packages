@@ -167,9 +167,3 @@ Feel free to contribute and fix bugs 🙂
 
 <h1>License</h1>
 ⚖️ Apache-2.0 license
-
-
-
-
-
-

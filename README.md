@@ -1,3 +1,4 @@
+<h1 style='text-align:center;color:blue;'>convert-calc</h1>
 <p>
   A Standard Converter to convert values from one unit of measurement to another.
   This package gives accurate results tailored to your specific needs.

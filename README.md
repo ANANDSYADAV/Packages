@@ -17,10 +17,10 @@
 This generator requires node and npm.
 
 You can install it globally by running:
-  => npm install -g convert-calc
+<pre>npm install -g convert-calc</pre>
 
 You can install it locally by running:
-  => npm install convert-calc
+<pre>npm install convert-calc</pre>
 
 <h1>Usage</h1>
 First of all import or require the package after installation.
@@ -28,34 +28,32 @@ First of all import or require the package after installation.
 Imported <b>'convert'</b> function from the package.
 
 <h2>Length Converter</h2>
-  => convert('length', fromUnit, toUnit, value)
+<pre>convert('length', fromUnit, toUnit, value)</pre>
 
 <h2>Mass Converter</h2>
-  => convert('mass', fromUnit, toUnit, value)
+<pre>convert('mass', fromUnit, toUnit, value)</pre>
 
 <h2>Time Converter</h2>
-  => convert('time', fromUnit, toUnit, value)
+<pre>convert('time', fromUnit, toUnit, value)</pre>
 
 <h2>Area Converter</h2>
-  => convert('area', fromUnit, toUnit, value)
+<pre>convert('area', fromUnit, toUnit, value)</pre>
 
 <h2>Data Converter</h2>
-  => convert('data', fromUnit, toUnit, value)
+<pre>convert('data', fromUnit, toUnit, value)</pre>
 
 <h2>Speed Converter</h2>
-  => convert('speed', fromUnit, toUnit, value)
+<pre>convert('speed', fromUnit, toUnit, value)</pre>
 
 <h2>Volume Converter</h2>
-  => convert('volume', fromUnit, toUnit, value)
+<pre>convert('volume', fromUnit, toUnit, value)</pre>
 
 <h2>Temperatur Converter</h2>
-  => convert('temp', fromUnit, toUnit, value)
+<pre>convert('temp', fromUnit, toUnit, value)</pre>
 
 <h2>Using BMI Calculator</h2>
-<pre>
   Import <b>'calculateBMI'</b> function from the package.
-  => calculateBMI(height, heigthUnit, weight, weightUnit)
-</pre>
+<pre>calculateBMI(height, heigthUnit, weight, weightUnit)</pre>
 
 <h2>Values to be placed at units</h2>
 

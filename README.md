@@ -13,7 +13,7 @@
   <li>License</li>
 </ul>
 
-h1>Install</h1>
+<h1>Install</h1>
 This generator requires node and npm.
 
 You can install it globally by running:
@@ -22,7 +22,7 @@ You can install it globally by running:
 You can install it locally by running:
   => npm install convert-calc
 
-h1>Usage</h1>
+<h1>Usage</h1>
 First of all import or require the package after installation.
 
 Imported <b>'convert'</b> function from the package.
@@ -52,8 +52,10 @@ Imported <b>'convert'</b> function from the package.
   => convert('temp', fromUnit, toUnit, value)
 
 <h2>Using BMI Calculator</h2>
-Import <b>'calculateBMI'</b> function from the package.
+<pre>
+  Import <b>'calculateBMI'</b> function from the package.
   => calculateBMI(height, heigthUnit, weight, weightUnit)
+</pre>
 
 <h2>Values to be placed at units</h2>
 

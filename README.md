@@ -17,10 +17,10 @@ h1>Install</h1>
 This generator requires node and npm.
 
 You can install it globally by running:
-npm install -g convert-calc
+  => npm install -g convert-calc
 
 You can install it locally by running:
-npm install convert-calc
+  => npm install convert-calc
 
 h1>Usage</h1>
 First of all import or require the package after installation.
@@ -28,38 +28,37 @@ First of all import or require the package after installation.
 Imported <b>'convert'</b> function from the package.
 
 <h2>Length Converter</h2>
-convert('length', fromUnit, toUnit, value)
+  => convert('length', fromUnit, toUnit, value)
 
 <h2>Mass Converter</h2>
-convert('mass', fromUnit, toUnit, value)
+  => convert('mass', fromUnit, toUnit, value)
 
 <h2>Time Converter</h2>
-convert('time', fromUnit, toUnit, value)
+  => convert('time', fromUnit, toUnit, value)
 
 <h2>Area Converter</h2>
-convert('area', fromUnit, toUnit, value)
+  => convert('area', fromUnit, toUnit, value)
 
 <h2>Data Converter</h2>
-convert('data', fromUnit, toUnit, value)
+  => convert('data', fromUnit, toUnit, value)
 
 <h2>Speed Converter</h2>
-convert('speed', fromUnit, toUnit, value)
+  => convert('speed', fromUnit, toUnit, value)
 
 <h2>Volume Converter</h2>
-convert('volume', fromUnit, toUnit, value)
+  => convert('volume', fromUnit, toUnit, value)
 
 <h2>Temperatur Converter</h2>
-convert('temp', fromUnit, toUnit, value)
+  => convert('temp', fromUnit, toUnit, value)
 
-<h1>Using BMI Calculator</h1>
-Imported <b>'calculateBMI'</b> function from the package.
-
-calculateBMI(height, heigthUnit, weight, weightUnit)
+<h2>Using BMI Calculator</h2>
+Import <b>'calculateBMI'</b> function from the package.
+  => calculateBMI(height, heigthUnit, weight, weightUnit)
 
 <h2>Values to be placed at units</h2>
 
 You have to place abbreviation of units in place of <b>fromUnit</b>, <b>toUnit</b>, <b>heigthUnit</b>, <b>weightUnit</b>.
-<p>
+<pre>
 Length = [
     { unit: 'millimeter', abbreviation: 'mm' },
     { unit: 'centimeter', abbreviation: 'cm' },
@@ -149,16 +148,14 @@ Temp = [
     { unit: 'kelvin', abbreviation: 'K' },
     { unit: 'rankin', abbreviation: 'R' }
 ];
-</p>
+</pre>
   
 <h1>Maintainer</h1>
 <pre>
-<a href='https://www.npmjs.com/~anandsyadav' traget='_blank'
+npm: <a href='https://www.npmjs.com/~anandsyadav' traget='_blank'
   style='color:red;'>@anandsyadav</a>
-
 Linkedin: <a href='https://www.linkedin.com/in/anand-yadav-08b7b2230/' traget='_blank'
   style='color:red;'>ANAND YADAV</a>
-
 GitHub: <a href='https://github.com/ANANDSYADAV' traget='_blank'
   style='color:red;'>ANANDSYADAV</a>
 
